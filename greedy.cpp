@@ -1,4 +1,4 @@
-
+// #include <conio.h> engga diperlu in  ini komentar
 #include <stdio.h>
 #define size 99
 
@@ -42,7 +42,7 @@ main()
     printf("\n");
   }
   printf("\n");
-
+  //  getch();engga diperluin , ini komentar
   return 0;
 }
 
