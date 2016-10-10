@@ -21,7 +21,7 @@ main()
   sort(x, n);
   printf("\nJenis koin yang tersedia (Rp): \n");
 
-  for (i = 1; i <= n; i++)
+  for (i = 1; i <= n; i++)   //diganti dari code asli
   {
     printf("%d \t", x[i]);
   }
@@ -51,7 +51,7 @@ void sort(int a[], int siz)
 {
   int pass, hold, j;
 
-  for (pass = 1; pass <= siz ; pass++){
+  for (pass = 1; pass <= siz ; pass++){ //diganti dari code asli
     for (j = 0; j <= siz - 2; j++)
     {
       if (a[j + 1])
